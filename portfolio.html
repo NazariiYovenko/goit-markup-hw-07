@@ -22,29 +22,36 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
-        <nav>
-          <a href="./index.html" lang="en" class="link logo"
-            ><span class="logo-accent">Web</span><span class="logo-main">Studio</span></a
+      <div class="container page-header__container">
+        <nav class="nav">
+          <a href="./index.html" lang="en" class="logo"
+            ><span class="logo__accent-part">Web</span
+            ><span class="logo__main-part">Studio</span></a
           >
-          <ul class="list site-nav">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li class="item"><a href="#" class="link">Контакты</a></li>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link site-nav__link--current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list contact-nav">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              ><svg width="16" height="12 " class="icon-nav">
+        <ul class="contact-nav">
+          <li class="contact-nav__item">
+            <a href="mailto:info@devstudio.com" class="contact-nav__link"
+              ><svg width="16" height="12 " class="contact-nav__icon">
                 <use href="./images/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link"
-              ><svg width="10" height="16 " class="icon-nav">
+          <li class="contact-nav__item">
+            <a href="tel:+380961111111" class="contact-nav__link"
+              ><svg width="10" height="16 " class="contact-nav__icon">
                 <use href="./images/icons.svg#icon-phone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -288,8 +295,11 @@
         <div class="subscribe">
           <p class="title subscribe-title">Подпишитесь на рассылку</p>
           <form class="subscribe-form">
-            <input type="email" name="subscribe-mail" class="subscribe-mail" placeholder="E-mail">
-            <button type="submit" class="subscribe-button"><span class="subscribe-button-text">Подписаться</span><svg width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
+            <input type="email" name="subscribe-mail" class="subscribe-mail" placeholder="E-mail" />
+            <button type="submit" class="subscribe-button">
+              <span class="subscribe-button-text">Подписаться</span
+              ><svg width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg>
+            </button>
           </form>
         </div>
       </div>
