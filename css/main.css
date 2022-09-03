@@ -525,7 +525,6 @@ a {
 .modal {
   position: absolute;
   width: 528px;
-  height: 581px;
   background: var(--primary-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -580,10 +579,6 @@ a {
   margin-bottom: 20px;
 }
 
-.checkbox {
-  margin-bottom: 30px;
-}
-
 .modal-form__input,
 .modal-form__input--textarea {
   outline: none;
@@ -597,6 +592,18 @@ a {
   letter-spacing: 0.01em;
   color: var(--input-text-color);
   transition: border var(--main-transition);
+}
+
+.modal-form__label {
+  margin-bottom: 5px;
+}
+
+.modal-form__field {
+  margin-bottom: 10px;
+}
+
+.modal-form__field--textarea {
+  margin-bottom: 20px;
 }
 
 .modal-form__input:focus,
@@ -634,6 +641,10 @@ a {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.checkbox {
+  margin-bottom: 30px;
 }
 
 .checkbox__text,

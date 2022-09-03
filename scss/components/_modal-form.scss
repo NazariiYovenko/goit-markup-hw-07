@@ -13,10 +13,6 @@
   margin-bottom: 20px;
 }
 
-.checkbox {
-  margin-bottom: 30px;
-}
-
 .modal-form__input,
 .modal-form__input--textarea {
   outline: none;
@@ -31,6 +27,18 @@
   letter-spacing: 0.01em;
   color: var(--input-text-color);
   transition: border var(--main-transition);
+}
+
+.modal-form__label {
+  margin-bottom: 5px;
+}
+
+.modal-form__field {
+  margin-bottom: 10px;
+}
+
+.modal-form__field--textarea {
+  margin-bottom: 20px;
 }
 
 .modal-form__input:focus,
@@ -69,6 +77,10 @@
 
     color: rgba(117, 117, 117, 0.5);
   }
+}
+
+.checkbox {
+  margin-bottom: 30px;
 }
 
 .checkbox__text,
