@@ -654,6 +654,7 @@ a {
   color: var(--primary-text-color);
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .checkbox__icon-wrap {
