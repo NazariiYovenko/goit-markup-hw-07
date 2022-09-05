@@ -120,6 +120,7 @@
 
 .checkbox__input:focus + .checkbox__icon-wrap {
   border: 2px solid var(--accent);
+  outline: none;
 }
 
 .checkbox__offer-link {
