@@ -48,7 +48,6 @@
 
 .modal-form__wrap {
   position: relative;
-  margin-top: 4px;
 }
 
 .modal-form__icon {
@@ -65,7 +64,6 @@
 }
 
 .modal-form__input--textarea {
-  margin-top: 4px;
   padding: 12px 16px;
   height: 120px;
   resize: none;
@@ -118,6 +116,10 @@
 
 .checkbox__input:checked + .checkbox__icon-wrap .checkbox__icon {
   fill: var(--primary-background-color);
+}
+
+.checkbox__input:focus + .checkbox__icon-wrap {
+  border: 2px solid var(--accent);
 }
 
 .checkbox__offer-link {
