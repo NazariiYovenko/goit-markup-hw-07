@@ -595,7 +595,12 @@ a {
 }
 
 .modal-form__label {
-  margin-bottom: 5px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  padding: 0;
+  margin-bottom: 4px;
 }
 
 .modal-form__field {
@@ -642,6 +647,7 @@ a {
 }
 
 .checkbox {
+  max-height: 15px;
   margin-bottom: 30px;
 }
 
